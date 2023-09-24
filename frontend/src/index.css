@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Libre Baskerville", serif;
+    font-family: "Merriweather", serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+:root {
+    --primary-color: darkgreen; /* Green */
+    --secondary-color: #ffc107; /* Yellow */
+    --accent-color: #2196f3; /* Blue */
+}
+.brand,
+.navOptions {
+    color: #fff;
+    font-weight: bolder;
+}
+.brand:hover,
+.navOptions:hover {
+    color: #ffc107;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+.welcome {
+    font-size: 50px;
+}
+.slogan {
+    font-size: 25px;
+}
+.homeimg {
+    height: 200px;
+}
+.search {
+    margin-top: 90px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+.content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.groceryCard {
+    margin: 20px 0px;
+    border: 4px solid #2196f3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+.card-title {
+    font-weight: bold;
+    font-size: larger;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-component {
+    text-align: center;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 4px solid #2196f3;
+    display: flex;
+    background-color: rgb(254, 231, 235);
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 10px;
+}
+.form-title {
+    font-size: 25px;
+    font-weight: bolder;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.tableClass {
+    margin: 90px 70px 0px 70px;
+    text-align: center;
+}
+.checkout-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+}
+.checkout-details {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.checkout-warning {
+    color: #555;
+    font-size: 50px;
+}
+.profile-component {
+    box-shadow: #2196f3 0px 0px 0px 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 20px;
+    width: 600px;
+    background-color: lightyellow;
+    text-align: center;
+}
+.profile-title {
+    font-size: 30px;
+}
+.confirm {
+    text-align: center;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+        rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+        rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+.imgg {
+    width: 500px;
+    height: 300px;
+}
+.shopingcart {
+    content: attr(data-count);
+}
+.confirmed-text {
+    font-size: 30px;
+    background-color: yellow;
+}
+.error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.delivery {
+    font-size: 30px;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card {
+    border: none;
+}
+.proCard {
+    font-size: 20px;
+    margin: 20px;
+}
+.card-body {
+    background-color: lightyellow;
+}
+@media screen and (max-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) {
+    .welcome {
+        font-size: 21px;
+    }
+    .slogan {
+        font-size: 12px;
+    }
+    input {
+        padding: 5px;
+    }
+    .form-component {
+        width: auto;
+    }
+    .registerdropdown {
+        position: relative !important;
+        left: 27px !important;
+    }
+    .search {
+        margin-top: 80px;
+        font-size: 20px;
+        padding: 10px;
+        width: 325px;
+        border-radius: 20px;
+    }
+
+    .checkout-details {
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 12px;
+    }
+    .checkout-table {
+        font-size: 12px;
+    }
+    .delivery {
+        font-size: 15px;
+    }
+    .error-img {
+        height: 500px;
+        width: 300px;
+    }
+    .error-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-component {
+        box-shadow: #2196f3 0px 0px 0px 3px;
+        padding: 20px;
+        width: 300px;
+        font-size: 12px;
+        background-color: lightyellow;
+        text-align: center;
+    }
+    .group {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .proCard {
+        font-size: 12px;
+        margin: 20px;
+        background-color: lightyellow;
+    }
+}

@@ -1,0 +1,212 @@
+[
+                {
+          "item": "Carrot",
+          "price": 1.50,
+          "type": "Vegetable",
+          "icon": "🥕",
+          "color": "Orange"
+        },
+        {
+          "item": "Banana",
+          "price": 0.75,
+          "type": "Fruit",
+          "icon": "🍌",
+          "color": "Yellow"
+        },
+        {
+          "item": "Rice",
+          "price": 3.50,
+          "type": "Grain",
+          "icon": "🍚",
+          "color": "White"
+        },
+        {
+          "item": "Potato Chips",
+          "price": 2.25,
+          "type": "Snack",
+          "icon": "🥔",
+          "color": "Golden"
+        },
+        {
+          "item": "Milk",
+          "price": 2.00,
+          "type": "Dairy",
+          "icon": "🥛",
+          "color": "White"
+        },
+        {
+          "item": "Broccoli",
+          "price": 1.75,
+          "type": "Vegetable",
+          "icon": "🥦",
+          "color": "Green"
+        },
+        {
+          "item": "Apple",
+          "price": 1.25,
+          "type": "Fruit",
+          "icon": "🍏",
+          "color": "Green"
+        },
+        {
+          "item": "Quinoa",
+          "price": 4.00,
+          "type": "Grain",
+          "icon": "🍲",
+          "color": "Tan"
+        },
+        {
+          "item": "Popcorn",
+          "price": 1.50,
+          "type": "Snack",
+          "icon": "🍿",
+          "color": "Yellow"
+        },
+        {
+          "item": "Cheese",
+          "price": 3.50,
+          "type": "Dairy",
+          "icon": "🧀",
+          "color": "Yellow"
+        },
+        {
+          "item": "Spinach",
+          "price": 2.25,
+          "type": "Vegetable",
+          "icon": "🍃",
+          "color": "Green"
+        },
+        {
+          "item": "Grapes",
+          "price": 2.50,
+          "type": "Fruit",
+          "icon": "🍇",
+          "color": "Purple"
+        },
+        {
+          "item": "Oats",
+          "price": 2.75,
+          "type": "Grain",
+          "icon": "🌾",
+          "color": "Tan"
+        },
+        {
+          "item": "Pretzels",
+          "price": 2.00,
+          "type": "Snack",
+          "icon": "🥨",
+          "color": "Brown"
+        },
+        {
+          "item": "Yogurt",
+          "price": 1.75,
+          "type": "Dairy",
+          "icon": "🍦",
+          "color": "White"
+        },
+        {
+          "item": "Cauliflower",
+          "price": 1.75,
+          "type": "Vegetable",
+          "icon": "🥦",
+          "color": "White"
+        },
+        {
+          "item": "Orange",
+          "price": 1.00,
+          "type": "Fruit",
+          "icon": "🍊",
+          "color": "Orange"
+        },
+        {
+          "item": "Pasta",
+          "price": 2.25,
+          "type": "Grain",
+          "icon": "🍝",
+          "color": "Yellow"
+        },
+        {
+          "item": "Chocolate Bar",
+          "price": 1.50,
+          "type": "Snack",
+          "icon": "🍫",
+          "color": "Brown"
+        },
+        {
+          "item": "Butter",
+          "price": 2.50,
+          "type": "Dairy",
+          "icon": "🧈",
+          "color": "Yellow"
+        },
+        {
+          "item": "Bell Pepper",
+          "price": 1.75,
+          "type": "Vegetable",
+          "icon": "🫑",
+          "color": "Red"
+        },
+        {
+          "item": "Pear",
+          "price": 1.25,
+          "type": "Fruit",
+          "icon": "🍐",
+          "color": "Green"
+        },
+        {
+          "item": "Barley",
+          "price": 3.00,
+          "type": "Grain",
+          "icon": "🌾",
+          "color": "Brown"
+        },
+        {
+          "item": "Trail Mix",
+          "price": 2.50,
+          "type": "Snack",
+          "icon": "🍪",
+          "color": "Various"
+        },
+        {
+          "item": "Milkshake",
+          "price": 3.00,
+          "type": "Dairy",
+          "icon": "🥤",
+          "color": "Cream"
+        },
+        {
+          "item": "Zucchini",
+          "price": 1.50,
+          "type": "Vegetable",
+          "icon": "🥒",
+          "color": "Green"
+        },
+        {
+          "item": "Strawberries",
+          "price": 2.75,
+          "type": "Fruit",
+          "icon": "🍓",
+          "color": "Red"
+        },
+        {
+          "item": "Wheat Bread",
+          "price": 2.00,
+          "type": "Grain",
+          "icon": "🍞",
+          "color": "Brown"
+        },
+        {
+          "item": "Peanut Butter",
+          "price": 3.25,
+          "type": "Snack",
+          "icon": "🥜",
+          "color": "Brown"
+        },
+        {
+          "item": "Eggs",
+          "price": 2.50,
+          "type": "Dairy",
+          "icon": "🥚",
+          "color": "White"
+        }
+]
