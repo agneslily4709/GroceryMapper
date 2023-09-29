@@ -27,13 +27,11 @@ const Login = (props) => {
         'Content-Type':'application/json'
       },
       credentials: 'include',
-      body:JSON.stringify({
-        email,
-        password
-      })
+      body:JSON.stringify({  email,  password})
     });
     localStorage.setItem("grocery-app-user",JSON.stringify({email}))
     const data = await res.json();
+    console.log("error",res.data.error)
     if(res.status === 400 || !data){
       toast.error("Invalid Credentials",{
                 position: toast.POSITION.BOTTOM_RIGHT,
@@ -56,7 +54,6 @@ const Login = (props) => {
 <div className='form-container'>
     <form method='POST' className='form-component'>
     <p className='form-title'>Login Form</p>
-
         <input
             onChange={(e)=>setEmail(e.target.value)}
             placeholder="Enter your Mail"

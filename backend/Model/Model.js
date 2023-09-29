@@ -1,6 +1,33 @@
-const mongoose = require("mongoose");
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
+import mongoose from "mongoose"
+import jwt from "jsonwebtoken"
+import bcrypt from "bcryptjs"
+
+const groceryScheme = new mongoose.Schema({
+    item:{
+        type: String,
+        required: true
+    },
+    price:{
+        type: String,
+        required: true
+    },
+    type:{
+        type: String,
+        required: true
+    },
+    icon:{
+        type:String,
+        required:true
+    },
+    color:{
+        type:String,
+        required:true    
+    }
+
+
+})
+
+export const Grocery = mongoose.model("GROCERY",groceryScheme);
 
 const userSchema = new mongoose.Schema({
     name: {
@@ -45,6 +72,4 @@ userSchema.methods.generateAuthToken = async function(){
         console.log(err);
     }
 }
-const User = mongoose.model("USER", userSchema);
-
-module.exports = User;  
+export const User = mongoose.model("USER", userSchema);

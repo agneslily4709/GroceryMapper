@@ -43,6 +43,7 @@ const handleButton = ()=> {
     setConfirm(true)
 };
 useEffect(() => {
+        let total = 0
         let userInfo = JSON.parse(localStorage.getItem("grocery-app-user"))
         if(userInfo) setUser(userInfo.email)
         else navigate("/login")
@@ -74,7 +75,7 @@ useEffect(() => {
   <tbody>
   {Object.entries(finalCart).map(([itemName, itemData]) => {
   return (
-    <tr className='table-success' scope="row" key={itemName}>
+    <tr className='table-success' key={itemName}>
         <td>{id++}</td>
       <td>{itemData.name}</td>
       <td>{itemData.quantity}</td>
