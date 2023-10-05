@@ -68,7 +68,7 @@ const PostData = async (e) =>{
             <input
                 onChange={handleInputs}  
                 placeholder="Enter your Password"
-                type="text"
+                type="password"
                 value={user.password}
                 name="password"
             />
